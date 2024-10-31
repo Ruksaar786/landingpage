@@ -4,7 +4,7 @@ import MobileNav from "@/Components/MobileNav";
 import Nav from "@/Components/Nav";
 import Pricing from "@/Components/Pricing";
 import Services from "@/Components/Services";
-import Apply from "@/Components/apply";
+import Apply from "@/Components/Apply";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
