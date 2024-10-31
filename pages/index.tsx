@@ -1,13 +1,12 @@
 //import About from "@/Components/About";
 
-import Footer from "@/landingpage/Components/Footer";
-import Hero from "@/landingpage/Components/Hero";
-import MobileNav from "@/landingpage/Components/MobileNav";
-import Nav from "@/landingpage/Components/Nav";
-import Projects from "@/landingpage/Components/Projects";
-import Services from "@/landingpage/Components/Services";
-import Skils from "@/landingpage/Components/Skils";
-
+import Footer from "@/Components/Footer";
+import Hero from "@/Components/Hero";
+import MobileNav from "@/Components/MobileNav";
+import Nav from "@/Components/Nav";
+import Pricing from "@/Components/Pricing";
+import Services from "@/Components/Services";
+import Apply from "@/Components/apply";
 import React, { useEffect, useState } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css"; // You can also use <link> for styles
@@ -49,12 +48,12 @@ const HomePage = () => {
     <div className="overflow-x-hidden">
       <div>
         <MobileNav nav={nav} closeNav={closeNav} />
-        <Nav openNav={openNav} />
+        <Nav />
         <Hero />
         <div className="relative z-[30]">
           <Services />
-          <Skils />
-          <Projects />
+          <Apply />
+          <Pricing />
 
           <Footer />
         </div>

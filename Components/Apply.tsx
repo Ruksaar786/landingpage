@@ -1,6 +1,6 @@
 import React from "react";
 
-const Skils = () => {
+const Apply = () => {
   return (
     <div className="pt-[4rem] md:pt-[8rem] pb-[6rem] bg-[#f9f9f9] text-2xl">
       <div className="bg-pink-50 p-4" id="how-to-apply">
@@ -102,4 +102,4 @@ const Skils = () => {
   );
 };
 
-export default Skils;
+export default Apply;

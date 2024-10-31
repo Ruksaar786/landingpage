@@ -7,11 +7,11 @@ import React from "react";
 
 const Services = () => {
   return (
-    <div className="pt-[4rem] md:pt-[4rem] pb-4rem] bg-[#f6f7f9]">
+    <div className="pt-[4rem] md:pt-[4rem] pb-4rem] bg-[#ffffff]">
       <h1 className="heading text-green-700">
         <p>Course Cover</p>
 
-        <span className="text-green-600">
+        <span className="text-green-700">
           <p>Duration of course: 9 months</p> 1 hour class (Mon-Fri), Time: 3:30
           PM to 4:30 PM (SAST)
         </span>
@@ -19,7 +19,7 @@ const Services = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 w-[80%] mx-auto items-center gap-[3rem] mt-[4rem] text-white">
         <div data-aos="fade-right">
           <div className="bg-green-700 hover:scale-110 transform transition-all duration-300 hover:-rotate-6 uppercase font-semibold text-center p-[2rem]">
-            <CodeBracketSquareIcon className="w-[6rem] h-[rem] mx-auto text-[#d3fae8]" />
+            <CodeBracketSquareIcon className="w-[6rem] h-[6rem] mx-auto text-[#d3fae8]" />
             <div className="gap-4 md:flex my-2">
               <div className="flex-1 rounded overflow-hidden shadow-lg border py-6">
                 <div className="px-4 py-4">

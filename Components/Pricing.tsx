@@ -1,7 +1,7 @@
 import Image from "next/image";
 import React from "react";
 
-const Projects = () => {
+const Pricing = () => {
   return (
     <div className="py-8">
       <section className="text-center">
@@ -316,4 +316,4 @@ const Projects = () => {
   );
 };
 
-export default Projects;
+export default Pricing;
